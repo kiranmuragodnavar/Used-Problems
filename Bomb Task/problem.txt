@@ -1,0 +1,72 @@
+Title:
+Bomb Task
+
+Description:
+
+Commander Ryan is working in Armed Forces. Their military base is in threat due to attack by enemy forces. 
+Enemy forces have planted N bombs in series. The bombs which are planted are of 2 types, type 'A' and type 'B'.
+As a commander of the unit, he is responsible for neutralizing as many bombs as possible. If he fails to 
+neutralize some or all the bombs they would explode and destroy the base.
+
+He can neutralize the bombs in the following way:
+
+You're given with the string of length N, which denotes the sequence of bombs (either of type A or B).
+
+You can neutralize the bomb by following operation:
+
+If there exists substring "AB" in the string, then that 2 bombs can be neutralized hence deleted from the string. 
+The rest string is concatenated.
+ 
+For ex:
+In the string, BAABBB
+BAABBB --> BABB --> BB
+
+Your task is to find number of bombs that would explode finally. 
+
+
+
+Standard Input:
+The first line consists of integer N, the length of the string.
+The second line consists of the string, of either 'A' or 'B'.
+
+
+Standard Output:
+Minimum Number of bombs that would explode after making above operation.
+
+
+Constraints
+1 <= N <= 1e5
+Si is either 'A' or 'B'  
+
+
+Sample Input 1:
+5
+BABAA
+
+Sample Output 1:
+3
+ 
+Explaination:
+Initial string BABAA 
+BABAA --> BAA
+So 3 bombs would explode after making one operation.
+Note - You can't delete subtring of type "BA", only "AB" type of substring can be deleted.
+
+
+
+Sample Input 2:
+8
+AABBABBA
+
+Sample Output 2:
+2
+
+
+Explanation:
+Initial String --> AABBABBA
+AABBABBA --> AABBBA --> ABBA --> BA 
+So 2 bombs would explode, after making 3 operations.
+
+
+
+

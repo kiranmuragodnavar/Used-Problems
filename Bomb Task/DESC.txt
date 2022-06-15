@@ -1,0 +1,8 @@
+ID: BOM01
+TITLE: Bomb Task
+DIFFICULTY: easy
+TAGS: strings, stacks
+TEST_GENERATOR: true
+AUTHOR: Kiran S Muragodnavar
+DIRECTORY_NAME: bomb_game
+USED: false

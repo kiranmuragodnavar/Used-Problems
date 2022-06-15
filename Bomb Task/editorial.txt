@@ -1,0 +1,17 @@
+This problem can be solved using stacks.
+
+We can use a stack as well as another count variable.  
+
+So, traverse the string, 
+
+If we encounter 'A', push it into the stack.
+
+If we encounter 'B',
+Case 1: 
+If stack is not empty, pop top most one element from the stack.
+
+Case 2:
+If stack is empty, increase the count value, as it can't be neutralised further, it would explode finally.
+
+Output the value of size of stack + count variable.
+

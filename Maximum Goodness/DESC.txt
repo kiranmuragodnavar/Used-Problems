@@ -1,0 +1,9 @@
+ID: PER01
+TITLE: Maximum Goodness
+DIFFICULTY: easy
+TAGS: array
+SOLUTION_LANG: cpp
+TEST_GENERATOR: false
+AUTHOR: Kiran S Muragodnavar
+DIRECTORY_NAME: maximum_goodness
+USED: false

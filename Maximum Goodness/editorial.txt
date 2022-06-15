@@ -1,0 +1,8 @@
+1. The Goodness value is nothing but the the difference between (max(A)-min(A)) where a is the input Array
+
+2. We can select it by calculating a count of the max(A) as well as min(A);
+
+If cnt(max(A)) is equal to cnt(min(A)), ie when all elements of arrays are equal, the answer must be
+(N*(N-1))/2
+
+In other cases it would be cnt(max(A))*cnt(min(A))

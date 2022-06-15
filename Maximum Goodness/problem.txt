@@ -1,0 +1,41 @@
+Title:
+Maximum Goodness
+
+
+Description:
+
+Sujay has an array a consisting of N numbers. He is interested to find the maximum "Goodness value" of this Array.
+
+Goodness value of an array is defined as abs(a[i]-a[j]), where 1<=i<=N and 1<=j<=N.
+
+Also he is interested to find the number of ways through which he can select those 2 numbers from the array a, 
+which gives the maximum Goodness Value
+
+
+
+Input format:
+The first line consists of N,the size of the Array
+The second line consists of N spaced integers, the elements of the Array
+
+Output format:
+Two integers P and Q
+P-->The maximum Goodness value
+Q-->The number of ways (pairs) of obtaining the Goodness values
+
+
+
+Constraints:
+2 <= N <= 1e5
+1 <= Ai <= 1e9
+
+Sample Input:
+6
+2 1 1 4 7 2
+
+Sample Output:
+6 2
+
+Sample Explanation:
+P--> The maximum Goodness value can be obtained when we select the number 7 and 1. So P would be(7-1=6)
+Q--> We can select the pair (1,7) by 2 ways, ie (A2 and A5), (A3 and A5) .
+ 
