@@ -1,0 +1,6 @@
+Going on adding values to the array results in exceeding the limit of the array, hence its not the
+optimal solution. One can notice that when the ai is divisible by x, ai/x is added x times which means the
+added values make sum of ai itself.
+
+Traverse each element of array, for each element, till ai is divisble by x, add ai to the sum and divide ai/x.
+This gives the sum of the updated array. 
