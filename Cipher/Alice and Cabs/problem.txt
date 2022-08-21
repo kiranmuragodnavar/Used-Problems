@@ -1,0 +1,60 @@
+Description:
+
+Its vacation time and all the students of school were Alice is studying planned to for a trip.
+
+So the teachers of the school divided the students into small groups, where each groups consists 1 to 4 students and 
+those group of students should travel in a cab together always. They planned to hire cabs for this purpose.
+Each cab can carry atmost 4 students. 
+
+Alice is the leader of the school and his teacher gives him a task to check the minimum number of cabs needed 
+if all the students of the same group should travel together in a same cabs, also a cab can take more than one group 
+but capacity is only 4.
+
+Check the sample cases for better understanding.
+
+
+//Grammar
+
+
+Standard Input:
+The first line consists of integer N, number of groups in the school.
+The second line consists of N spaced integers, number of students in each group.
+
+
+Standard Output:
+A single integer which is the minimum number of cabs required to take all the students.
+
+
+Constraints
+1 <= N  <= 1e5
+1 <= Ai <= 4 
+
+
+Sample Input 1:
+7
+1 4 1 1 1 2 3
+
+
+Sample Output 1:
+	
+
+Explanation:
+First cab (A2)  [4]
+Second cab  (A1 and A7)  [1+3]
+Third cab  (A4 and A6)  [2+1+1]
+Fourth cab  (A1 and A3)  [1]
+Note that, there can also be less than 4 students also that can be travelling in the cabs, like the fourth cab in this explanation.
+
+
+Sample Input 2:
+4
+1 2 3 4
+
+Sample Output 2:
+3
+ 
+Explaination:
+First cab (A4)
+Second cab (A1 and A3)
+Third cab (A2)
+
