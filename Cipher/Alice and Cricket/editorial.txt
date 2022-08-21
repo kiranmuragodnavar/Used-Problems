@@ -1,0 +1,2 @@
+Traverse the array and update the highest score also with its index. Print the highest score
+and order based on index of highest scorer. 
