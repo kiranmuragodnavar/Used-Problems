@@ -1,0 +1,5 @@
+Calculate the sum of the array and subtract the sum from n*(n+1)/2. As the sum of all numbers
+from 1 to n is n*(n+1)/2, to make it a permutation array, n*(n+1)/2 - sumof(array) operations are
+required.
+
+This can also be done by --> (A1-1) + (A2-2) + (A3-3) + .... + (An-n), where Ai is ith element of the array.
