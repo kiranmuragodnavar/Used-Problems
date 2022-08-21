@@ -1,0 +1,51 @@
+Description:
+
+Alice is a small kid and it is the break time going on currently in his school.
+
+He has n friends who are sitting in a circular fashion and each of his ith friend has Ai candies with them.
+Alice has currently no candies and wishes to have take candies from his friends.
+So he decides to take a place between any 2 of his friends and take all the candies from both of them.
+
+Given an array consisting of number of candies with each friend, your task is to print the maximum possbile 
+number of candies Alice can have, by joining the line.
+
+
+
+
+Input format:
+The first line consists of N, the size of the Array
+The second line consists of N spaced integers, ie the number candies with each friend
+
+Output format:
+Print the maximum number of candies, Alice can have
+
+
+Constraints:
+1 <= N <= 1e5
+1 <= Ai <= 1e9
+
+Sample Input:
+6
+3 4 1 3 7 2
+
+Sample Output:
+10
+
+Sample Explanation:
+Alice can sit between the friends having 3 candies and 7 candies, hence can have 10 candies
+ 
+
+
+Sample Input:
+5
+3 4 1 5 2
+
+Sample Output:
+7
+
+Sample Explanation:
+Alice can sit between the friends:
+i . having 3 candies and 4 candies
+ii. having 2 candies and 5 candies
+Both of them give the value of 7, he can choose any one among the 2 places.
+Hence can have 7 candies
