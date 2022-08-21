@@ -1,0 +1,47 @@
+Alice has been given a special task from his Senior
+
+He is given a binary string and an array(both of length n)
+
+His task is to remove all the characters of the string, till the string becomes empty. He can choose any substring of equal characters and remove it from the string. After removing the substring the remaining parts are concatenated. For removing a substring of length x, he gets ax points.
+
+His task is to maximise the total points.
+
+Input Format
+
+The first line contains one integer n  — the length of string S .
+
+The second line contains string S , consisting only of digits 0 or 1.
+
+The third line contains n integers , where ai is the number of points for erasing the substring of length i.
+
+Constraints
+
+1<=n<=100
+1<=ai<=1e9
+
+Output Format
+
+An integer, maximum points Alice can get
+
+Sample Input 0
+
+5
+10101
+3 10 15 15 15
+
+Sample Output 0
+23
+
+Explanation 0
+
+Original String-  10101
+
+Optimal way:
+
+ Step-1 : 1001 , thus gets a1= 3 points for removing substring of length 1
+
+ Step-2 : 11  , gets a2=10 points
+
+ Step-3 : null , gets a2=10 points
+
+3+10+10=23 points
