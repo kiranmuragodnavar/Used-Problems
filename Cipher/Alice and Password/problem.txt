@@ -1,0 +1,54 @@
+Description:
+
+Alice is a developer at a social medial platform.
+He has been given a task to validate password of all the users who signs up to their platform.
+As he is busy in some other work, he is asking your help.
+
+For a password to be valid, below conditions must be satisfied,
+1. The length of the password must be >=8.
+2. It must consist of number 0
+3. It must consist of any one odd number (either 1/3/5/7/9)
+4. It must have atleast one special character (either @ or # or $ or * or & or _)
+
+
+The password is said to be valid only if it satisfies all the above conditions
+You have to just print YES if its valid, NO if its not
+
+Note: No space is included
+
+Input format:
+The first line T consists number of test cases
+Next T lines consists of strings ie the passowrd to be validated
+
+
+Output format:
+T lines of output, if it is a valid password print "YES" or else "NO" (without quotes).
+
+Constraints:
+1 <= T <= 1000
+1 <= len(S) <= 1e5
+
+
+Sample Input:
+4
+I#*56ad0Bg
+01234
+**U03
+abcde052ea
+ 
+
+Sample Output:
+YES
+NO
+NO
+NO
+
+
+Sample Explanation:
+
+Case 1: It satisfies all the above 4 conditions
+Case 2: It satisfies only condition 2 and 3
+Case 3: It satisfies condition 2,3,4, but its length is 5, which is less than 8, hence invalid
+Case 4: It doesnt have a special character, hence it is invalid
+
+ 
