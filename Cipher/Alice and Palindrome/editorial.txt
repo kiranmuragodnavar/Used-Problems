@@ -1,0 +1,7 @@
+For a subsequence of length greater than 3 to be a palindrome, either of cases must be
+satisfied.
+i. Frequency of any number is greater than or equal to 3. The subsequence of 3 same numbers always
+is a palindrome.
+ii. Frequency of any element is exactly 2, and those 2 occuerences must not be consecutive. If they're
+consecutive then it forms a palidrome of length only 2.
+For any other cases there's no palindrome.
