@@ -1,0 +1,68 @@
+Description:
+
+You're given an array A consisting on N integers.
+
+Your task is to find if there is any subsequence of length atleast 3 (length>=3) , which is a Palindrome.
+
+Array B is called a subsequence of array A if it is obtained by removing some(possibly zero) elements from the array A, 
+without changing the order of elements.
+For example, given A->[2,6,1,7,2]. 
+[2] , [2,7] , [2,1,7] , [2,6,7],[2,6,1]  are subsequences of array whereas,
+[6,2] , [1,6,7] , [2,2,7] , [1,6,2] are not subsequences of array A.
+
+
+
+Palindrome Array is an Array which reads the same when read backward.
+[1,2,1] , [1,1,1] , [1] , [2,3,5,3,2] are examples of Palindrome Array
+[1,2,2] , [1,2] are some of the examples which are not Palindrome Array
+
+
+Input format:
+The first line T consists number of test cases
+
+Next ( 2*T ) lines of describes testcases.
+The first line consists of N,the size of the Array
+The second line consists of N spaced integers, the elements of the Array
+
+Output format:
+T lines of output, if there exists a Palindrome print "YES" or else "NO" (without quotes).
+
+Constraints:
+1 <= T <= 100
+1 <= N <= 1000
+1 <= Ai <= 1e9
+
+
+
+
+Sample Input:
+5
+3
+1 3 1
+6
+1 2 3 4 5 6
+6
+4 4 3 3 7 7 
+6
+7 2 1 7 0 2
+5
+3 2 7 4 2 
+
+Sample Output:
+YES
+NO
+NO
+YES 
+YES
+
+
+
+Sample Explanation:
+
+Case 1: [1,3,1] forms a Palindrome
+Case 2: There can not be any Palindrome formed which are of length greater than or equal to 3.
+Case 3: There can not be any Palindrome formed which are of length greater than or equal to 3.
+Case 4: [7,2,7] , [2,7,7,2] are the subsequences which forms Palindrome
+Case 5: [2,7,2] , [2,4,2] are the subsequences which forms Palindrome
+
+ 
