@@ -1,0 +1,43 @@
+Description:
+
+Alice is a great Cricket fan. 
+He has came to watch a Cricket match to cheer up his favourite team. His favourite team batted well and also won the match.
+
+He looks at the score board and based on the runs scored by each batsman, he just thinks what may be the score of the batsman who
+gets the Man of the match award.
+Your task is to print the runs scored by the player who receives the Man of the Match award
+Also if the highest scorer comes in Top Order or middle order or Lower Order.
+
+Note 1: The batsman scoring the highest runs will get the Man of the Match award.
+Note 2: The index of the batsman according to their orders
+1 to 4-->Top 
+5 to 8-->Middle 
+9 to 11-->Lower 
+
+This question is based on 1-based indexing and all scores are distinct
+
+Input format:
+The first line consists of N, the number of batsman who go the chance to Bat
+The second line consists of N spaced integers, the runs scored by each batsman
+
+Output format:
+The runs scored by the player who will receive the Man of the Match award and order of the batsman who scored the highest runs.
+
+Constraints:
+1 <= N  <= 11
+0 <= Ai <= 200
+
+Sample Input:
+11 
+12 66 32 87 11 18 10 45 5 2 0
+
+Sample Output:
+87 Top
+
+
+Explaination:
+The batsman at index 4 scored the highest score and he comes in Top Order.
+
+
+
+ 
