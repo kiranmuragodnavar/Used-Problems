@@ -1,0 +1,4 @@
+Find the count of 1s, 2s, 3s, 4s in the array. Keep count_of_cabs as 0 in beginning.
+Update count_of_cabs with 4s in the array, then combines 3s and 1s as much as possible, then combine
+2s and 2s, the combines two 1s and one 2s and remaining four 1s which gives the minimum required
+cabs.
