@@ -1,0 +1,2 @@
+Check the 2 consecutive values of the array which add upto the highest sum. Since they're
+arranged in circular fashion consider the sum of first and last element of the array as well
