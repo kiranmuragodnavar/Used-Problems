@@ -1,0 +1,2 @@
+Traverse the string and check if all the conditions are satisfied. Output yes only if all 4
+conditions are satisfied else no. 
